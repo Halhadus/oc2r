@@ -98,7 +98,7 @@ repositories {
     if (hasGithubPackageCredentials) {
         final def GithubPackages = [
             ["fnuecke/ceres", "li.cil.ceres"],
-            ["Halhadus/sedna", "li.cil.sedna"],
+            ["North-Western-Development/sedna", "li.cil.sedna"],
             ["Halhadus/minux", "li.cil.sedna"]
         ]
         GithubPackages.each { final repo, final group ->
