@@ -77,7 +77,7 @@ public final class Items {
     public static final RegistryObject<CPUItem> CPU_TIER_4 = register("cpu_tier_4", () ->
         new CPUItem(200_000_000));
     public static final RegistryObject<CPUItem> CPU_TIER_INF = register("cpu_tier_inf", () ->
-        new CPUItem(2_600_000_000));
+        new CPUItem(2_000_000_000));
     public static final RegistryObject<FlashMemoryItem> FLASH_MEMORY = register("flash_memory", () ->
         new FlashMemoryItem(12 * Constants.MEGABYTE));
     public static final RegistryObject<FlashMemoryWithExternalDataItem> FLASH_MEMORY_CUSTOM = register("flash_memory_custom", () ->
