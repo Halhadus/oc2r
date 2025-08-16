@@ -38,7 +38,7 @@ public final class HardDriveItemDeviceProvider extends AbstractItemDeviceProvide
 
     @Override
     protected int getItemDeviceEnergyConsumption(final ItemDeviceQuery query) {
-        return Math.max(1, (int) Math.round(getCapacity(query) * Config.hardDriveEnergyPerMegabytePerTick / Constants.MEGABYTE));
+        return 0;
     }
 
     ///////////////////////////////////////////////////////////////////

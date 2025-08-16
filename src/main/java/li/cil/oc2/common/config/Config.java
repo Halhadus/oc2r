@@ -21,17 +21,17 @@ public final class Config {
     public static double busCableEnergyPerTick = 0.1;
     public static double busInterfaceEnergyPerTick = 0.5;
     public static int computerEnergyPerTick = 10;
-    public static int computerEnergyStorage = 2000;
+    public static int computerEnergyStorage = 10000;
     public static int chargerEnergyPerTick = 2500;
     public static int chargerEnergyStorage = 10000;
     public static int projectorEnergyPerTick = 20;
-    public static int projectorEnergyStorage = 2000;
+    public static int projectorEnergyStorage = 10000;
     public static int monitorEnergyPerTick = 15;
-    public static int monitorEnergyStorage = 2000;
+    public static int monitorEnergyStorage = 10000;
     public static int cardCageEnergyPerTick = 20;
-    public static int cardCageEnergyStorage = 2000;
+    public static int cardCageEnergyStorage = 10000;
     public static int gatewayEnergyPerPacket = 20;
-    public static int gatewayEnergyStorage = 2000;
+    public static int gatewayEnergyStorage = 10000;
 
     public static int robotEnergyPerTick = 5;
     public static int robotEnergyStorage = 750000;
@@ -70,7 +70,7 @@ public final class Config {
     public static List<String> allowedHosts = List.of();
     public static String defaultNameServer = "1.1.1.1";
     public static boolean useSynchronisedNAT = false;
-    public static int streamBufferSize = 2000;
+    public static int streamBufferSize = 20000;
     public static int tcpRetransmissionTimeoutMs = 2 * 1000;
 
     public static GUISpec.CaptureInputMode captureInputMode = GUISpec.CaptureInputMode.PER_BLOCK;

@@ -47,7 +47,7 @@ public class EnergySpec {
             .defineInRange("computerEnergyPerTick", 10, 0, Integer.MAX_VALUE);
 
         computerEnergyStorage = builder.comment("The amount of energy stored in a computer")
-            .defineInRange("computerEnergyStorage", 2000, 0, Integer.MAX_VALUE);
+            .defineInRange("computerEnergyStorage", 10000, 0, Integer.MAX_VALUE);
 
         chargerEnergyPerTick = builder.comment("The amount of energy consumed per tick by a charger")
             .defineInRange("chargerEnergyPerTick", 2500, 0, Integer.MAX_VALUE);
@@ -59,25 +59,25 @@ public class EnergySpec {
             .defineInRange("projectorEnergyPerTick", 20, 0, Integer.MAX_VALUE);
 
         projectorEnergyStorage = builder.comment("The amount of energy stored in a projector")
-            .defineInRange("projectorEnergyStorage", 2000, 0, Integer.MAX_VALUE);
+            .defineInRange("projectorEnergyStorage", 10000, 0, Integer.MAX_VALUE);
 
         monitorEnergyPerTick = builder.comment("The amount of energy consumed per tick by a monitor")
             .defineInRange("monitorEnergyPerTick", 15, 0, Integer.MAX_VALUE);
 
         monitorEnergyStorage = builder.comment("The amount of energy stored in a monitor")
-            .defineInRange("monitorEnergyStorage", 2000, 0, Integer.MAX_VALUE);
+            .defineInRange("monitorEnergyStorage", 10000, 0, Integer.MAX_VALUE);
 
         cardCageEnergyPerTick = builder.comment("The amount of energy consumed per tick by a card cage")
             .defineInRange("cardCageEnergyPerTick", 20, 0, Integer.MAX_VALUE);
 
         cardCageEnergyStorage = builder.comment("The amount of energy stored in a card cage")
-            .defineInRange("cardCageEnergyStorage", 2000, 0, Integer.MAX_VALUE);
+            .defineInRange("cardCageEnergyStorage", 10000, 0, Integer.MAX_VALUE);
 
         gatewayEnergyPerPacket = builder.comment("The amount of energy consumed per packet by a gateway")
             .defineInRange("gatewayEnergyPerPacket", 20, 0, Integer.MAX_VALUE);
 
         gatewayEnergyStorage = builder.comment("The amount of energy stored in a gateway")
-            .defineInRange("gatewayEnergyStorage", 2000, 0, Integer.MAX_VALUE);
+            .defineInRange("gatewayEnergyStorage", 10000, 0, Integer.MAX_VALUE);
 
         builder.pop();
 
@@ -97,7 +97,7 @@ public class EnergySpec {
             .defineInRange("memoryEnergyPerMegabytePerTick", 0.05, 0, Double.MAX_VALUE);
 
         hardDriveEnergyPerMegabytePerTick = builder.comment("The amount of energy consumed per megabyte per tick for hard drive modules")
-            .defineInRange("hardDriveEnergyPerMegabytePerTick", 1.0, 0, Double.MAX_VALUE);
+            .defineInRange("hardDriveEnergyPerMegabytePerTick", 0.05, 0, Double.MAX_VALUE);
 
         cpuEnergyPerMegahertzPerTick = builder.comment("The amount of energy consumed per megahertz per tick for CPU modules")
             .defineInRange("cpuEnergyPerMegahertzPerTick", 0.1, 0, Double.MAX_VALUE);

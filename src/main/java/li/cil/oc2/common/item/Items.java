@@ -57,7 +57,7 @@ public final class Items {
     public static final RegistryObject<MemoryItem> MEMORY_LARGE = register("memory_large", () ->
         new MemoryItem(8 * Constants.MEGABYTE));
     public static final RegistryObject<MemoryItem> MEMORY_EXTRA_LARGE = register("memory_extra_large", () ->
-        new MemoryItem(16 * Constants.MEGABYTE));
+        new MemoryItem(1024 * Constants.MEGABYTE));
 
     public static final RegistryObject<HardDriveItem> HARD_DRIVE_SMALL = register("hard_drive_small", () ->
         new HardDriveItem(Config.diskSizeFactor, DyeColor.LIGHT_GRAY));
@@ -66,7 +66,7 @@ public final class Items {
     public static final RegistryObject<HardDriveItem> HARD_DRIVE_LARGE = register("hard_drive_large", () ->
         new HardDriveItem(4 * Config.diskSizeFactor, DyeColor.CYAN));
     public static final RegistryObject<HardDriveItem> HARD_DRIVE_EXTRA_LARGE = register("hard_drive_extra_large", () ->
-        new HardDriveItem(16 * Config.diskSizeFactor, DyeColor.YELLOW));
+        new HardDriveItem(1023 * Config.diskSizeFactor, DyeColor.YELLOW));
 
     public static final RegistryObject<CPUItem> CPU_TIER_1 = register("cpu_tier_1", () ->
         new CPUItem(25_000_000));
@@ -77,7 +77,7 @@ public final class Items {
     public static final RegistryObject<CPUItem> CPU_TIER_4 = register("cpu_tier_4", () ->
         new CPUItem(200_000_000));
     public static final RegistryObject<CPUItem> CPU_TIER_INF = register("cpu_tier_inf", () ->
-        new CPUItem(1_000_000_000));
+        new CPUItem(2_600_000_000));
     public static final RegistryObject<FlashMemoryItem> FLASH_MEMORY = register("flash_memory", () ->
         new FlashMemoryItem(12 * Constants.MEGABYTE));
     public static final RegistryObject<FlashMemoryWithExternalDataItem> FLASH_MEMORY_CUSTOM = register("flash_memory_custom", () ->
